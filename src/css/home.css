@@ -187,8 +187,12 @@ body {
 .primaryPlaylist-list {
   display: flex;
   overflow: auto;
+  align-content: center;
 }
-
+.primaryPlaylist-img{
+  position: relative;
+  left: 35%;
+}
 .primaryPlaylist-list .primaryPlaylistItem {
   margin-right: 10px;
 }
